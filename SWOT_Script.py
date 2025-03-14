@@ -291,14 +291,29 @@ st.session_state.tokens_consumed = 0
 st.session_state.query_tokens = 0
 st.session_state.response_tokens = 0
 
+st.markdown("""
+    <style>
+        .fixed-footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            color: #555;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <div class="fixed-footer">
+        Made by Abhinav | Powered by LangChain & Google Gemini Al
+    </div>
+    """, unsafe_allow_html=True)
+
+
 
 # In[ ]:
 
 
-
-
-
-# In[ ]:
 
 
 
